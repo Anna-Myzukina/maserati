@@ -159,13 +159,13 @@ h6 {
 .defaultHero,
 .roomsHero {
   min-height: calc(100vh - 66px);
-  background: url("./images/defaultBcg.jpeg") center/cover no-repeat;
+  background: url("./img/maserati.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .roomsHero {
-  background-image: url("./images/room-2.jpeg");
+  background-image: url("./img/granturismo-coupe.jpg");
   min-height: 60vh;
 }
 /* End of Hero */
@@ -364,7 +364,7 @@ h6 {
 .single-room {
   padding: 5rem 0 0 0;
 }
-.single-room-images {
+.single-room-img {
   width: 80vw;
   margin: 0 auto;
   display: grid;
@@ -372,7 +372,7 @@ h6 {
   grid-row-gap: 2rem;
   grid-column-gap: 50px;
 }
-.single-room-images img {
+.single-room-img img {
   width: 100%;
   display: block;
 }
@@ -418,7 +418,7 @@ h6 {
   grid-row-gap: 1rem;
 }
 @media screen and (min-width: 992px) {
-  .single-room-images,
+  .single-room-img,
   .single-room-info,
   .room-extras {
     width: 95vw;
